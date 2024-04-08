@@ -1,0 +1,112 @@
+header {
+    width: 100%;
+    // background-color: #212529;
+    background: transparent rgb(0, 0, 0, 0.9);
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    z-index: 5;
+
+    .head-container {
+        height: 70px;
+        padding: 0 12px;
+        max-width: 1320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        a {
+            padding-top: 5px;
+
+
+            img {
+                height: 1.5rem;
+
+            }
+        }
+
+
+        .right {
+
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 1rem;
+
+                    a {
+                        font-size: 0.95rem;
+                        color: #fff;
+                        letter-spacing: 0.0625em;
+                        font-family: "Roboto", "sans-serif";
+                        transition: 0.3s;
+                        padding: 8px;
+                    }
+
+                    a:hover {
+                        color: #ffc800;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+.head-image {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+
+    .image-words {
+        width: 100%;
+        top: 38%;
+        position: absolute;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        color: white;
+        margin-bottom: 2rem;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    a {
+        padding: 20px 40px;
+        background-color: #ffc800;
+        color: #fafafa;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        border-radius: 6px;
+    }
+    a:hover {
+        background-color: #d9aa00;
+        border-color: #cca000;
+
+    }
+}
